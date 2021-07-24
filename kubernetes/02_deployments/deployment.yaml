@@ -17,3 +17,7 @@ spec:
         image: d4n13lbc/all-tools-ubuntu:v0.0.1
         ports:
         - containerPort: 5000
+      securityContext:
+        fsGroup: 65534
+      serviceAccount: default
+      serviceAccountName: default
