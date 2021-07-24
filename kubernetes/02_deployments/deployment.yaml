@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: all-tools-ubuntu-deployment
+spec:
+  selector:
+    matchLabels:
+      app: all-tools-ubuntu
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: all-tools-ubuntu
+    spec:
+      containers:
+      - name: all-tools-ubuntu
+        image: all-tools-ubuntu:v0.0.1
+        ports:
+        - containerPort: 5000
