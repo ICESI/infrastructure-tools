@@ -1,3 +1,10 @@
+# Content
+
+- apk
+- python3 and pip3
+- python server + prometheus metrics endpoint
+
+
 # Build, test and deploy commands
 
 ```
