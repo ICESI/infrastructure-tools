@@ -1,3 +1,12 @@
+# Tools
+
+- apt
+- curl
+- unzip
+- awscli v2
+- python3 and pip3
+- python server + prometheus metrics endpoint
+
 # Build, test and deploy commands
 
 ```
